@@ -1,0 +1,55 @@
+body{
+    background-color: antiquewhite;
+
+}
+
+.searchBlock{
+    display: flex;
+    justify-content: center;
+}
+
+.search{
+    margin: 75px,60px;
+    padding: 30px; 
+    border: 1px solid gray;
+    border-radius: 15px;
+}
+
+.elem{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.searchLabel{
+    display: flex;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 920px;
+    font-weight: bold;
+}
+
+label{
+    display: block;
+    width: 60px;
+}
+
+select{
+    width: 170px;
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+input{
+    height: 25px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+.mainbtn{
+    margin-top: 30px;
+    width: 230px
+}
